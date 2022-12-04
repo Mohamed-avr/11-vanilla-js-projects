@@ -1,0 +1,80 @@
+* , ::after , ::after {
+    box-sizing: border-box;
+}
+.section-center {
+    width: 600px;
+    height: 500px;
+    background: #9387fd;
+    margin: 50px auto;
+}
+.botuns_inputs  form {
+    margin: auto;
+    width: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.botuns_inputs  form input{
+  padding: 12px;
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+}
+.botuns_inputs  form input:nth-of-type(1){
+    background: #4138914f;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .botuns_inputs  form input:nth-of-type(2){
+    background: #2511dd;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .botuns_inputs  form input:nth-of-type(2):hover{
+    background: #281b9c;
+    transition: 0.4s;
+  }
+  .todos {
+      width: 500px;
+      height: 300px;
+      margin: 50px auto;
+      padding: 20px;
+  }
+  .todo {
+      width: 450px;
+      height: 50px;
+      background: #382faf;
+      text-align: left;
+      padding-left: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      margin: 1rem;
+  }
+  .x-1{
+   font-size: 1rem;
+   color: #fff;
+   letter-spacing: 2px;
+   font-weight: none;
+   }
+   .x-2 {
+      background: none;
+      color: #fff;
+      width:50px;
+      height:50px;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+
+   }
+   .x-2:hover {
+    background:rgba(39, 38, 38, 0.267);
+ }
+
+ .HidingHandler {
+   display: none;
+ }
